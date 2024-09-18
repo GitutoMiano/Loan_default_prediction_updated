@@ -12,6 +12,7 @@ lightgbm
 typing
 uvicorn
 pydantic
+dill
 
 
 #-e .
