@@ -66,3 +66,6 @@ pipeline/: Contains the scripts for the prediction and training pipelines.
 #### logger.py: Handles logging for the project.
 
 #### utils.py: Contains utility functions used across the project.
+
+## Note: The artifacts/ folder is generated dynamically when you run the app using the command:
+        uvicorn app:app --reload
