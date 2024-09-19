@@ -8,7 +8,7 @@ from src.components.data_transformation import DataTransformation
 
 class PredictPipeline:
     def __init__(self):
-        self.model_path = os.path.join("artifacts", 'models', "xgboost_model.pkl")
+        self.model_path = os.path.join("artifacts", 'models', "lgbm_model.pkl")
         self.preprocessor_path = os.path.join('artifacts', 'preprocessor.pkl')
         self.model = None
         self.preprocessor = None
