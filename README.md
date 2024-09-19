@@ -46,20 +46,22 @@ Develop a predictive model to assess loan default risk based on applicant data. 
 - Kaggle: [Loan Default Dataset](https://www.kaggle.com/datasets/yasserh/loan-default-dataset)
 
 ## Project Structure
-Folder and File Descriptions:
+### Folder and File Descriptions:
 ### artifacts/: This folder contains the data/ and models/ subdirectories. It is automatically generated when the app runs and holds the trained models and preprocessed data.
 
-data/: Contains the train.csv, test.csv, and the preprocessor.pkl file used for data transformation.
-models/: Holds the trained models and their feature importance in .csv format.
+#### data/: Contains the train.csv, test.csv, and the preprocessor.pkl file used for data transformation.
+
+#### models/: Holds the trained models and their feature importance in .csv format.
 
 ### notebook/: Contains the Jupyter notebook used for experimentation and the Kaggle dataset.
 
 ### src/: The source folder containing the main codebase:
 
-components/: Holds modules for data ingestion, transformation, and model training.
-pipeline/: Contains the scripts for the prediction and training pipelines.
+#### components/: Holds modules for data ingestion, transformation, and model training.
 
-#### app.py: Main application script to run the FastAPI web app.
+#### pipeline/: Contains the scripts for the prediction and training pipelines.
+
+### app.py: Main application script to run the FastAPI web app.
 
 #### requirements.txt: Lists the required dependencies for the project.
 
